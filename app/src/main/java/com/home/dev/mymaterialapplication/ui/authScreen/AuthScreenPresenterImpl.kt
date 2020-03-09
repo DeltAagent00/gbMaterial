@@ -20,4 +20,12 @@ class AuthScreenPresenterImpl: BasePresenterAbs<IAuthScreenView>(), IAuthScreenP
             closeScreen()
         }
     }
+
+    override fun onClickCloseBtn() {
+        closeScreen()
+    }
+
+    override fun onClickActionSnackBar() {
+        viewState.showSnackBarMsg()
+    }
 }

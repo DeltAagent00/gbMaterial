@@ -9,4 +9,5 @@ interface IAuthScreenView: IBaseView {
     fun initView()
     fun showErrorAuth()
     fun showMainScreen()
+    fun showSnackBarMsg()
 }
