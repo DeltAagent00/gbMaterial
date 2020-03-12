@@ -2,14 +2,20 @@
     <string name="app_name">MyMaterialApplication</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">Home develop</string>
+    <string name="nav_header_subtitle">dev</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
     <string name="menu_home">Home</string>
+    <string name="menu_fruit">Fruit</string>
     <string name="not_be_empty">Not be empty</string>
     <string name="login">Login</string>
     <string name="close">Close</string>
     <string name="action">Action</string>
+
+    <string name="show_loader">Show loader</string>
+    <string name="hide_loader">Hide loader</string>
+
+    <string name="fruit_content">Screen for fruit</string>
 </resources>
