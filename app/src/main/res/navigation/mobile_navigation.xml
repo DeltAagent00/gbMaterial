@@ -16,4 +16,10 @@
         android:name="com.home.dev.mymaterialapplication.ui.mainScreen.fruitScreen.FruitScreenFragmentImpl"
         android:label="@string/menu_fruit"
         tools:layout="@layout/fragment_fruit" />
+
+    <fragment
+        android:id="@+id/nav_coordinator"
+        android:name="com.home.dev.mymaterialapplication.ui.mainScreen.coordiantorScreen.CoordinatorScreenFragmentImpl"
+        android:label="@string/menu_coordinator"
+        tools:layout="@layout/fragment_coordinator_screen" />
 </navigation>
