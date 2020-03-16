@@ -8,5 +8,13 @@
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_menu_camera"
             android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_fruit"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_fruit" />
+        <item
+            android:id="@+id/nav_coordinator"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/fruit_coordinator" />
     </group>
 </menu>
