@@ -20,8 +20,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.mainScreen.MainActivity"
-            android:theme="@style/AppTheme.NoActionBar"
+        <activity android:name=".ui.mainScreen.MainActivityScreen"
+            android:theme="@style/AppThemeNoActionBar"
             />
         <activity android:name=".ui.nextScreen.NextScreenActivityImpl"
             android:theme="@style/AppThemeNoActionBar"

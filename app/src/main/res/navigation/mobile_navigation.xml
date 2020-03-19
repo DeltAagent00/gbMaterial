@@ -7,7 +7,25 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.home.dev.mymaterialapplication.ui.mainScreen.home.HomeFragment"
+        android:name="com.home.dev.mymaterialapplication.ui.mainScreen.homeScreen.HomeScreenFragmentImpl"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_fruit"
+        android:name="com.home.dev.mymaterialapplication.ui.mainScreen.fruitScreen.FruitScreenFragmentImpl"
+        android:label="@string/menu_fruit"
+        tools:layout="@layout/fragment_fruit" />
+
+    <fragment
+        android:id="@+id/nav_coordinator"
+        android:name="com.home.dev.mymaterialapplication.ui.mainScreen.coordiantorScreen.CoordinatorScreenFragmentImpl"
+        android:label="@string/menu_coordinator"
+        tools:layout="@layout/fragment_coordinator_screen" />
+
+    <fragment
+        android:id="@+id/nav_rv"
+        android:name="com.home.dev.mymaterialapplication.ui.mainScreen.rvScreen.RvScreenFragmentImpl"
+        android:label="@string/menu_rv"
+        tools:layout="@layout/fragment_recycler_view" />
 </navigation>
