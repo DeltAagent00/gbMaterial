@@ -10,6 +10,7 @@
     <string name="menu_home">Home</string>
     <string name="menu_fruit">Fruit</string>
     <string name="menu_coordinator">Coordinator</string>
+    <string name="menu_rv">RecyclerView</string>
     <string name="not_be_empty">Not be empty</string>
     <string name="login">Login</string>
     <string name="close">Close</string>

@@ -22,4 +22,10 @@
         android:name="com.home.dev.mymaterialapplication.ui.mainScreen.coordiantorScreen.CoordinatorScreenFragmentImpl"
         android:label="@string/menu_coordinator"
         tools:layout="@layout/fragment_coordinator_screen" />
+
+    <fragment
+        android:id="@+id/nav_rv"
+        android:name="com.home.dev.mymaterialapplication.ui.mainScreen.rvScreen.RvScreenFragmentImpl"
+        android:label="@string/menu_rv"
+        tools:layout="@layout/fragment_recycler_view" />
 </navigation>
