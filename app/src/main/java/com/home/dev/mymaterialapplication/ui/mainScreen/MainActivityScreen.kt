@@ -3,8 +3,6 @@ package com.home.dev.mymaterialapplication.ui.mainScreen
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
-import com.google.android.material.floatingactionbutton.FloatingActionButton
-import com.google.android.material.snackbar.Snackbar
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
@@ -17,11 +15,11 @@ import androidx.appcompat.widget.Toolbar
 import android.view.Menu
 import com.home.dev.mymaterialapplication.R
 
-class MainActivity : AppCompatActivity() {
+class MainActivityScreen : AppCompatActivity() {
 
     companion object {
         fun show(context: Context) {
-            val intent = Intent(context, MainActivity::class.java)
+            val intent = Intent(context, MainActivityScreen::class.java)
             context.startActivity(intent)
         }
     }
@@ -34,11 +32,7 @@ class MainActivity : AppCompatActivity() {
         val toolbar: Toolbar = findViewById(R.id.toolbar)
         setSupportActionBar(toolbar)
 
-        val fab: FloatingActionButton = findViewById(R.id.fab)
-        fab.setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                .setAction("Action", null).show()
-        }
+
         val drawerLayout: DrawerLayout = findViewById(R.id.drawer_layout)
         val navView: NavigationView = findViewById(R.id.nav_view)
         val navController = findNavController(R.id.nav_host_fragment)
