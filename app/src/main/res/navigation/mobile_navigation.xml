@@ -28,4 +28,16 @@
         android:name="com.home.dev.mymaterialapplication.ui.mainScreen.rvScreen.RvScreenFragmentImpl"
         android:label="@string/menu_rv"
         tools:layout="@layout/fragment_recycler_view" />
+
+    <fragment
+        android:id="@+id/nav_tabs"
+        android:name="com.home.dev.mymaterialapplication.ui.mainScreen.tabsScreen.TabsScreenFragmentImpl"
+        android:label="@string/menu_tabs"
+        tools:layout="@layout/fragment_tabs" />
+
+    <fragment
+        android:id="@+id/nav_bottom"
+        android:name="com.home.dev.mymaterialapplication.ui.mainScreen.bottomScreen.BottomScreenFragmentImpl"
+        android:label="@string/menu_bottomTabs"
+        tools:layout="@layout/fragment_bottom_tabs" />
 </navigation>
