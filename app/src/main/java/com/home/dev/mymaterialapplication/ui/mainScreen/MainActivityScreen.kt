@@ -13,7 +13,9 @@ import com.google.android.material.navigation.NavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import android.view.Menu
+import android.view.MenuItem
 import com.home.dev.mymaterialapplication.R
+import com.home.dev.mymaterialapplication.ui.mainScreen.themeScreen.ThemeScreenActivityImpl
 
 class MainActivityScreen : AppCompatActivity() {
 
@@ -51,6 +53,16 @@ class MainActivityScreen : AppCompatActivity() {
         // Inflate the menu; this adds items to the action bar if it is present.
         menuInflater.inflate(R.menu.main, menu)
         return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when(item.itemId) {
+            R.id.action_settings -> {
+                ThemeScreenActivityImpl.show(this)
+                true
+            }
+            else -> super.onOptionsItemSelected(item)
+        }
     }
 
     override fun onSupportNavigateUp(): Boolean {
