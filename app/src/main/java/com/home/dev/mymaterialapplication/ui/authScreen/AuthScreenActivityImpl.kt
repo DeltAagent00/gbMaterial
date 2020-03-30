@@ -1,14 +1,12 @@
 package com.home.dev.mymaterialapplication.ui.authScreen
 
 import android.os.Bundle
-import android.view.View
 import android.widget.Toast
 import com.arellomobile.mvp.presenter.InjectPresenter
 import com.google.android.material.snackbar.Snackbar
 import com.home.dev.mymaterialapplication.R
 import com.home.dev.mymaterialapplication.ui.BaseActivityAbs
-import com.home.dev.mymaterialapplication.ui.mainScreen.MainActivity
-import com.home.dev.mymaterialapplication.ui.nextScreen.NextScreenActivityImpl
+import com.home.dev.mymaterialapplication.ui.mainScreen.MainActivityScreen
 import kotlinx.android.synthetic.main.activity_auth_screen.*
 
 class AuthScreenActivityImpl: BaseActivityAbs(), IAuthScreenView {
@@ -38,8 +36,7 @@ class AuthScreenActivityImpl: BaseActivityAbs(), IAuthScreenView {
     }
 
     override fun showMainScreen() {
-//        MainActivity.show(this)
-        NextScreenActivityImpl.show(this)
+        MainActivityScreen.show(this)
     }
 
     override fun showSnackBarMsg() {
